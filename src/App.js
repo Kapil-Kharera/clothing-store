@@ -1,9 +1,9 @@
-import "./homepage.style.scss";
-import { HomePage } from "./homepage.component.jsx";
+import { HomePage } from "./pages/homepage/homepage.component";
+import "./index.css"
+
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
       <HomePage />
     </div>
   );
